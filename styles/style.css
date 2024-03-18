@@ -33,7 +33,21 @@ header {
     justify-content: space-between;
     transition: all .50s ease;
 }
-.logo {
+.logo img {
     width: 100%;
     height: auto;
+}
+.navlist {
+    display: flex;
+}
+.navlist a{
+    display: inline-block;
+    margin: 0 35px;
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 600;
+    transition: all .6s ease;
+}
+.navlist a:hover {
+    color: var(--main-color);
 }
